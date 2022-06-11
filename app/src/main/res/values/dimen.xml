@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<dimen name="status_bar_height">@*android:dimen/status_bar_height</dimen>
+<dimen name="navigation_bar_height">@*android:dimen/navigation_bar_height</dimen>
+<style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+    <item name="textAllCaps">false</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:fontFamily">@raw/product</item>
+        <!---item name="app:fontFamily">@raw/product</item-->
+</style>
+</resources>

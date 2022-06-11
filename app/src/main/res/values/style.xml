@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<style name="SplashTheme" parent ="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+		<item name="android:statusBarColor">@color/colorPrimary</item>
+		  <item name="android:navigationBarColor">@color/colorPrimary</item>
+    
+    </style>
+    <style name="FullTheme" parent ="AppTheme">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style	name="DarkTheme"	parent="Theme.AppCompat.NoActionBar">
+		<item	name="colorPrimary">@color/colorPrimary</item>
+		<item	name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item	name="colorAccent">@color/colorAccent</item>
+		<item	name="colorControlHighlight">@color/colorControlHighlight</item>
+		<item	name="colorControlNormal">@color/colorControlNormal</item>
+		</style>
+</resources>

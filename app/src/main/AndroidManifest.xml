@@ -1,0 +1,174 @@
+
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="app.flix.free">
+	<uses-permission	android:name="android.permission.INTERNET"/>
+	<uses-permission	android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission	android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission	android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission	android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission	android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission	android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+	<application
+		android:allowBackup="true"
+		android:label="Flixr"
+		android:icon="@drawable/app_icon"
+		android:largeHeap="true"
+		android:usesCleartextTraffic="true"
+		android:name=".SketchApplication"
+		android:theme="@style/AppTheme"
+		android:roundIcon="@drawable/iconic"
+		tools:targetApi="24">
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:theme="@style/SplashTheme"
+			android:windowSoftInputMode="stateHidden"
+			tools:targetApi="n">
+			<intent-filter>
+				<action	android:name="android.intent.action.MAIN"/>
+				<category	android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".HomeActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden"
+			tools:targetApi="n" />
+		<activity
+			android:name=".AuthActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"
+			tools:ignore="UnusedAttribute" />
+		<activity
+			android:name=".InfoActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".TrailerActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".SeriesActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".MoreActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".FailedActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".WatchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".AdvancedSearchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".UpdateActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".AnimeTvActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".AnimeWatchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".AnimeSearchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".SodeActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".ImageActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".DebugActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version"/>
+		<provider
+			android:name="com.google.firebase.provider.FirebaseInitProvider"
+			android:authorities="app.flix.free.firebaseinitprovider"
+			android:exported="false"
+			android:initOrder="100"/>
+		<service
+			android:name="com.google.firebase.components.ComponentDiscoveryService"
+			android:exported="false">
+			<meta-data
+				android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+				android:value="com.google.firebase.components.ComponentRegistrar"/>
+			<meta-data
+				android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+				android:value="com.google.firebase.components.ComponentRegistrar"/>
+		</service>
+		<uses-library
+			android:name="org.apache.http.legacy"
+			android:required="false"/>
+
+<meta-data
+        android:name="com.startapp.sdk.APPLICATION_ID"
+        android:value="209730959" />
+	</application>
+</manifest>

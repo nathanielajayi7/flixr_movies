@@ -1,0 +1,43 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear13"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="8dp"
+		android:paddingBottom="8dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/more_line_back"
+			android:layout_width="match_parent"
+			android:layout_height="4dp"
+			android:background="#F44336"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/more_line"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#E50913"
+				android:orientation="horizontal"
+				android:translationX="-400.0dp"/>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview8"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:paddingLeft="2dp"
+			android:paddingTop="8dp"
+			android:paddingRight="2dp"
+			android:paddingBottom="8dp"
+			android:text="SEASON 1"
+			android:textSize="14sp"
+			android:textColor="#FFFFFF"/>
+	</LinearLayout>
+</LinearLayout>

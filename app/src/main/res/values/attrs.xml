@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CTTourIconFontView">
+        <attr name="icon_font_file" format="string|reference" />
+    </declare-styleable>
+
+    -<declare-styleable name="RealtimeBlurView">
+
+    <attr name="realtimeBlurRadius" format="dimension"/>
+
+    <attr name="realtimeDownsampleFactor" format="float"/>
+
+    <attr name="realtimeOverlayColor" format="color"/>
+
+</declare-styleable>
+
+
+    -<declare-styleable name="HorizontalListView">
+
+    <attr name="dividerWidth" format="dimension"/>
+
+    <attr name="android:divider"/>
+
+    <attr name="android:requiresFadingEdge"/>
+
+    <attr name="android:fadingEdgeLength"/>
+
+</declare-styleable>
+
+    <!--declare-styleable name="RotateLoading"><attr name="loading_width" format="dimension"/><attr name="loading_color" format="color"/><attr name="shadow_position" format="integer"/><attr name="loading_speed" format="integer"/></declare-styleable-->
+
+
+
+    -<declare-styleable name="CradleBall">
+
+    <attr name="cradle_ball_color" format="color"/>
+
+</declare-styleable>
+</resources>
