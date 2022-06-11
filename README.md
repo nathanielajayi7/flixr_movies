@@ -72,7 +72,7 @@ You will need:
             <img src="https://avatars.githubusercontent.com/u/46769766?v=4s=100" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>Nathaniel Adewale</b>
+                <b>Ilyasse</b>
             </sub>
         </a>
         <br />
