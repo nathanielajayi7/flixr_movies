@@ -86,7 +86,7 @@ You will need:
             <img src="https://avatars.githubusercontent.com/u/55067204?v=4s=100" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>Abram</b>
+                <b>アブラム (Abram)</b>
             </sub>
         </a>
         <br />
