@@ -16,7 +16,7 @@ The [app](https://user-images.githubusercontent.com/55067204/173201440-c66eed82-
 
 The [issues](https://github.com/nathanielajayi7/flixr_movies/issues) list contains all the work that is still to be done to finish the app. It also lists extra features that are not essential but which would make the app better. Every issue is labelled to show what skills we think will be required to contribute to the platform. 
 
-Everyone is asked to follow our code of conduct and to look at the contributing guidelines for more information on how to get started.
+Everyone is asked to follow our [code of conduct](https://github.com/israelabraham/flixr_movies/blob/master/CODE_OF_CONDUCT.md) and to look at the contributing guidelines for more information on how to get started.
 
 
 ### How it is built
