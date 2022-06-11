@@ -91,6 +91,7 @@ You will need:
         </a>
         <br />
         <a href="https://github.com/nathanielajayi7/flixr_movies/commits?author=israelabraham" title="Documentation">📖</a>
+        <a href="https://github.com/nathanielajayi7/flixr_movies/commits?author=israelabraham" title="Code of Conduct">📝</a>
     </td>
   </tr>
 </table>
